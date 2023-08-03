@@ -18,7 +18,7 @@ if (!isset($_SESSION["registration"])){
   <body>
 
 
-    <h1>WELCOME TO THE PALACE! YOU ARE HERE FIRST TIME, BUT CERTAINLY NOT LAST!</h1>
+    <center><h1>WELCOME TO THE BINGO!</h1><center>
 
     <br> <a href="index.php">Log in for the first time!</a>
 
