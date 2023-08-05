@@ -8,6 +8,7 @@ if (isset($_SESSION['err_name'])){
   echo $_SESSION['err_name'];
   unset($_SESSION['err_name']);
 } 
+
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +17,7 @@ if (isset($_SESSION['err_name'])){
   <head>
     <meta charset="utf-8">
     <title>Bingo!</title>
-    <link rel="styleheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <p>Hello, <?=$_SESSION["username"]?>! <br>
@@ -24,7 +25,12 @@ if (isset($_SESSION['err_name'])){
   Your e-mail: <?=$_SESSION["email"]?> </p>
 
     <br> 
-    <br>
+    <?php 
+    if(isset($_SESSION["Success"])) {
+     echo "You've successfully added new sentence";
+    }
+    
+    ?>
     <br>
 
 
@@ -62,19 +68,18 @@ if (isset($_SESSION['err_name'])){
         $bingo = $_SESSION['new_bingo'];
         shuffle($bingo);
         $bingo = array_chunk($bingo, 5);
-        print_r($bingo[1]);
       }
         ?>
 
 
-        <table>
+        <table class='style-table'>
 
           <tr>
 
         <?php
         if (isset($bingo[0]) && gettype($bingo[0]) === "array"){
-          foreach ($bingo[0] as $bingo){
-            echo "<td>".$bingo."</td>";
+          foreach ($bingo[0] as $bingo1){
+            echo "<td>".$bingo1."</td>";
           }
         }
         ?>
@@ -85,8 +90,8 @@ if (isset($_SESSION['err_name'])){
 
         <?php
           if (isset($bingo[1]) && gettype($bingo[1]) === "array"){
-            foreach ($bingo[1] as $bingo){
-              echo "<td>".$bingo."</td>";
+            foreach ($bingo[1] as $bingo2){
+              echo "<td>".$bingo2."</td>";
             }
           }
         ?>
@@ -97,8 +102,8 @@ if (isset($_SESSION['err_name'])){
 
         <?php
           if (isset($bingo[2]) && gettype($bingo[2]) === "array"){
-            foreach ($bingo[2] as $bingo){
-              echo "<td>".$bingo."</td>";
+            foreach ($bingo[2] as $bingo3){
+              echo "<td>".$bingo3."</td>";
             }
           }
         ?>
@@ -109,8 +114,8 @@ if (isset($_SESSION['err_name'])){
 
         <?php
           if (isset($bingo[3]) && gettype($bingo[3]) === "array"){
-            foreach ($bingo[3] as $bingo){
-              echo "<td>".$bingo."</td>";
+            foreach ($bingo[3] as $bingo4){
+              echo "<td>".$bingo4."</td>";
             }
           }
         ?>
@@ -120,8 +125,8 @@ if (isset($_SESSION['err_name'])){
 
         <?php
           if (isset($bingo[4]) && gettype($bingo[4]) === "array"){
-            foreach ($bingo[4] as $bingo){
-              echo "<td>".$bingo."</td>";
+            foreach ($bingo[4] as $bingo5){
+              echo "<td>".$bingo5."</td>";
             }
           }
         ?>

@@ -26,6 +26,7 @@
             $creating_bingo = "INSERT INTO bingos VALUES (NULL,'$user_id','$sentence','$name');";
             if($result2 = @$connection->query($creating_bingo)){
                 $_SESSION["completed_character"] = 1;
+                $_SESSION["Success"] = true;
             }
         }
     

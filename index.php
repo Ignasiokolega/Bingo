@@ -11,11 +11,11 @@ if (isset($_SESSION["status"]) && $_SESSION["status"] === true) {
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Palace</title>
+    <title>Bingo!</title>
     <link rel="styleheet" href="style.css">
  </head>
   <body>
-    <h1>Welcome to the palace!</h1>
+    <h1>Welcome to the Bingo!</h1>
 
       Sign in!
       <form id="log_in" action="log_in.php" method="post" >
