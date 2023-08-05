@@ -7,7 +7,7 @@
       }
     require_once 'connect.php';
 
-    $connection = @new mysqli($host , $db_user , $db_password , $db_name);
+    $connection = @new mysqli($host, $db_user, $db_password, $db_name);
 
         if ($connection->connect_errno !== 0)
         {
@@ -15,7 +15,7 @@
         
         } else {
 
-            $name = $_POST["character"];
+            $name = $_POST["name"];
             $username = $_SESSION['username'];
 
             $find_id = "SELECT id FROM users WHERE username = '$username'";
@@ -25,16 +25,21 @@
                 $user_id = $record1["id"];
             }
 
-            $creating_bingo = "SELECT * FROM bingos WHERE character_name = '$name' AND user_id = '$user_id'";
+            $creating_bingo = "SELECT contents FROM bingos WHERE character_name = '$name' AND user_id = '$user_id' ORDER BY id";
 
-            if($result2 = @$connection->query($creating_bingo)){
-                $record2 = $result2->fetch_assoc(); 
-                $_SESSION["new_bingo"] = $record2;
+        
+            
+                $results_array = [];
+                $result2 = $connection->query($creating_bingo);
+                while ($row = $result2->fetch_assoc()) {
+                    $row = array_shift($row);
+                $results_array[] = $row;
+}
+                $_SESSION["new_bingo"] = $results_array;
                 header("Location: bingo.php");
-            }
+            
             
         }
-    
     $connection->close();
 
     
