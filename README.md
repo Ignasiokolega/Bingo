@@ -7,7 +7,7 @@ Before I start, I want to apologize for my English, because I still learning it.
 
 <!--WHAT NOT EXPLAINED-->
 
-I think, I don't need to explain, what is going on i style.css, because It's obviose. <br>
+I think, I don't need to explain, what is going on i style.css, because It's obviouse. <br>
 Also, I don't gonna trying to explain html, because I think most people will know what everything works in it. <br>
 Connect.php also don't need expanation. <br>
 <br> <hr>
@@ -15,7 +15,7 @@ Connect.php also don't need expanation. <br>
 <!--bingo.php-->
 
 bingo.php is core of program, after you login, you can do operations. <br> 
-You know what is you're email, and you can add new character. <br>
+You can learn what is you're email (if you somehow forgot) <br>
 You can also add sentence to your character. <br>
 If you have 25 or more sentence for your character, you can write name of your character, and you gain ready bingo. <br>
 You, and for example your friends can have characters with same name, but you gain only yours results. <br>
