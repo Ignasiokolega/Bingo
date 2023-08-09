@@ -49,7 +49,9 @@ new_bingo_sentence.php, after getting information from bingo.php, gets from data
 
 <!--sign_up.php-->
 
-sign_up.php is just registration page. Have some needs, like not to short username, but that's trivial. <br> <hr>
+sign_up.php is just registration page. <br>
+It have some needs, like not to short username, but that's trivial. 
+<br> <br> <hr>
 
 <!--welcome_page.php-->
 
