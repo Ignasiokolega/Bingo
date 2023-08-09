@@ -63,10 +63,10 @@ After you register, you are on this page. You can login for the first time, but 
 I really want to thank my brother, that really help me and his code is dominating here. His Project was named "Palace" but, because I was making bingo, I have change that name. Here is link to his code:
 
 https://github.com/kingfisher843/palace
+<br> <hr>
+Trivia:<br>
 
-Trivia:
-
-Version of php i'em using is 8.2.6.
-I'em using Mariadb, not MySQL.
-Don't click "Terms" in registration page, it's rickroll.
+Version of php i'em using is 8.2.6. <br>
+I'em using Mariadb, not MySQL. <br>
+Don't click "Terms" in registration page, it's rickroll. <br>
 
