@@ -7,9 +7,7 @@ Before I start, I want to apologize for my English, because I still learning it.
 
 <!--WHAT NOT EXPLAINED-->
 
-I think, I don't need to explain, what is going on i style.css, because It's obviouse. <br>
-Also, I don't gonna trying to explain html, because I think most people will know what everything works in it. <br>
-Connect.php also don't need expanation. <br>
+Here, I won't explain HTML, and style.css and connect.php. <br>
 <br> <hr>
 
 <!--bingo.php-->
