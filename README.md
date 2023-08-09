@@ -1,4 +1,4 @@
-# This project was created because I wanted to learn. <br>
+# Bingo! <br>
 I know this project have some files, so I decide to say what is going on in them. <br>
 <br> 
 
@@ -30,7 +30,7 @@ After you send with POST your character name, it uses it with "$_SESSION[\'usern
 
 <!--index.php-->
 
-index.php is just login page. You write down informations like password and username, and if they are true, you are sended to bingo.php . If you're already logged, you are also sended to bingo.php . <br> 
+index.php is just login page. You write down informations like password and username, and if they are true, you are sended to bingo.php . If you're already logged, you are also sended to bingo.php. <br> 
 <br> <hr>
 
 <!--log_in.php-->
@@ -66,5 +66,7 @@ https://github.com/kingfisher843/palace
 
 Trivia:
 
+Version of php i'em using is 8.2.6.
+I'em using Mariadb, not MySQL.
 Don't click "Terms" in registration page, it's rickroll.
 
