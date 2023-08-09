@@ -22,7 +22,7 @@ You can also logout. <br>
 
 <!--helper.php-->
 
-helper.php /*I didn't have idea how to name it*/ is, how name help to know, helper to create bingo. <br>
+helper.php (I didn't have idea how to name it) is, how name help to know, helper to create bingo. <br>
 After you send with POST your character name, it uses it with "$_SESSION[\'username\']" to find your character and send to bingo informations. <br>
 <br> <hr>
 
