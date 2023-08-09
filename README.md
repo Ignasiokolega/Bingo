@@ -22,8 +22,8 @@ You can also logout. <br>
 
 <!--helper.php-->
 
-helper.php (I didn't have idea how to name it) is, how name help to know, helper to create bingo. <br>
-After you send with POST your character name, it uses it with "$_SESSION[\'username\']" to find your character and send to bingo informations. <br>
+helper.php (I hadn't got idea how to name it) is, how name help to know, helper to create bingo. <br>
+After you send with POST your character name, it uses it with "$_SESSION['username']" to find your character and send to bingo informations. <br>
 <br> <hr>
 
 <!--index.php-->
@@ -44,7 +44,7 @@ You may know ask: What it do then? It delete "$_SESSION" array. <br>
 
 <!--new_bingo_sentence.php-->
 
-new_bingo_sentence.php, after getting information from bingo.php create new sentence. Nothing more to explain here. <br>
+new_bingo_sentence.php, after getting information from bingo.php, gets from database information for bingo, and sends it back to bingo.php. Nothing more to explain here. <br>
 <br> <hr>
 
 <!--sign_up.php-->
