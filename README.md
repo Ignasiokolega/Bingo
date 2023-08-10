@@ -68,5 +68,8 @@ Trivia:<br>
 
 Version of php i'em using is 8.2.6. <br>
 I'em using Mariadb, not MySQL. <br>
-Don't click "Terms" in registration page, it's rickroll. <br>
+"Terms" of use are google home page. <br>
+<hr>
+
+If there is somethink you don't understand, don't afraid to ask me.
 
