@@ -55,7 +55,7 @@ It have some needs, like not to short username, but that's trivial.
 
 <!--welcome_page.php-->
 
-After you register, you are on this page. You can login for the first time, but you propably won't see that page (after registration) ever again. <br>
+welcome_page.php - After you register, you are on this page. You can login for the first time, but you propably won't see that page (after registration) ever again. <br>
 <br> <hr>
 
 # SPECIAL THANKS:
