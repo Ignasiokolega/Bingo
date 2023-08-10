@@ -177,7 +177,7 @@ if(isset($_SESSION["e_password"])){
 
 <label>
   <input name="terms" type="checkbox">
-I have read the terms and conditions of <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D' target='_blank'>Palace</a>
+I have read the terms and conditions of <a href='https://www.google.com/' target='_blank'>Palace</a>
 </label><br>
 <?php
 if(isset($_SESSION["e_terms"])){
