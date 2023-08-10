@@ -7,7 +7,7 @@ Before I start, I want to apologize for my English, because I still learning it.
 
 <!--WHAT NOT EXPLAINED-->
 
-Here, I won't explain HTML, and style.css and connect.php. <br>
+Here, I won't explain HTML, style.css, and connect.php. <br>
 <br> <hr>
 
 <!--bingo.php-->
